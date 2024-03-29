@@ -40,6 +40,7 @@ const OpenCard = ({ rank, suit }) => {
   );
 };
 
+
 const ClosedCard = ({ onClick }) => (
   <button onClick={onClick} className={cn(styles.card, styles.cardClosed)}>
     <img src={cardShirtImageUrl} alt="card shirt" />
